@@ -1,0 +1,71 @@
+@import '../../style/global.style.scss';
+@import '../../style/screen.size.scss';
+.container__list__account {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5rem;
+  height: max-content;
+  .wrapper__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0;
+    font-family: 'Roboto', sans-serif;
+    .wrapper__content__header {
+      display: flex;
+      background: transparent;
+      border: 1px solid gray;
+      border-radius: 4px;
+      padding: 6px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      h3 {
+        font-size: 16px;
+        color: rgb(39, 38, 38);
+        font-weight: 500;
+      }
+      h4 {
+        font-size: 15px;
+        color: rgb(39, 38, 38);
+        font-weight: 400;
+      }
+    }
+    .select__wrapper {
+      height: 100%;
+      display: flex;
+      border-radius: 3px;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+      align-self: stretch;
+      select {
+        height: 40px;
+        padding: 0 16px;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+        border: none;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+    .btn__add__account {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      height: max-content;
+      border-radius: 8px;
+      background: rgb(16, 189, 6);
+      @include apply-sm-size {
+        padding: 5px 10px;
+      }
+      a {
+        font-size: 18px;
+        color: white;
+        @include apply-sm-size {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "password": [
+    {
+      "provider": "test",
+      "email": "test@gmail.com",
+      "password": "asdqweasd",
+      "confPassword": "asdqweasd",
+      "category": "work",
+      "id": 1
+    },
+    {
+      "provider": "asdasdasdsad",
+      "email": "asdsad@gmail.com",
+      "password": "qweasdzxc",
+      "confPassword": "qweasdzxc",
+      "category": "family",
+      "id": 2
+    },
+    {
+      "provider": "asdasd",
+      "email": "asdasd@gmail.com",
+      "password": "asdasdasd",
+      "confPassword": "asdasdasd",
+      "category": "family",
+      "id": 3
+    }
+  ]
+}

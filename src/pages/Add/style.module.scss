@@ -1,0 +1,32 @@
+@import '../../style/global.style.scss';
+@import '../../style/screen.size.scss';
+.container__home {
+  @include container;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  .wrapper__btn__back {
+    background-color: rgb(36, 106, 236);
+    padding: 0.6rem 2rem;
+    border-radius: 12px;
+    a {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+  .form__Wrapper {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: max-content;
+    flex-direction: column;
+    padding: 0 2rem;
+    gap: 2rem;
+    @include apply-sm-size {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.btn__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+  gap: 1rem;
+  button {
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  button.cancel {
+    background-color: rgb(210, 207, 207);
+    color: black;
+  }
+  button.oke {
+    background-color: rgb(210, 207, 207);
+    color: white;
+    background-color: blue;
+  }
+}
